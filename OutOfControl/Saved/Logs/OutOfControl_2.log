@@ -1,8 +1,8 @@
-﻿Log file open, 07/12/20 14:46:40
+﻿Log file open, 07/12/20 15:10:00
 LogInit: Display: Running engine for game: OutOfControl
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 2.084016
+LogStats: Stats thread started at 2.000004
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,703 +194,1100 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.07.12-12.46.40:968][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2020.07.12-12.46.40:968][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.07.12-12.46.40:968][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
-[2020.07.12-12.46.40:968][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.07.12-12.46.40:968][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
-[2020.07.12-12.46.40:968][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
-[2020.07.12-12.46.40:968][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.07.12-12.46.40:968][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.07.12-12.46.40:969][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
-[2020.07.12-12.46.40:969][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
-[2020.07.12-12.46.40:971][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.07.12-12.46.40:971][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.07.12-12.46.40:972][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.12-12.46.40:972][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.07.12-12.46.40:972][  0]LogHAL: Display: Platform has ~ 8 GB [8546631680 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.07.12-12.46.40:972][  0]LogInit: Going up to parent DeviceProfile []
-[2020.07.12-12.46.40:972][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.07.12-12.46.40:972][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.07.12-12.46.40:973][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.07.12-12.46.40:974][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.07.12-12.46.40:974][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.07.12-12.46.40:974][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.07.12-12.46.40:974][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
-[2020.07.12-12.46.40:974][  0]LogInit: Computer: DESKTOP-PLNC30A
-[2020.07.12-12.46.40:974][  0]LogInit: User: juana
-[2020.07.12-12.46.40:974][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.07.12-12.46.40:974][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.07.12-12.46.40:974][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2020.07.12-12.46.40:974][  0]LogMemory: Platform Memory Stats for Windows
-[2020.07.12-12.46.40:974][  0]LogMemory: Process Physical Memory: 114.36 MB used, 114.36 MB peak
-[2020.07.12-12.46.40:974][  0]LogMemory: Process Virtual Memory: 103.82 MB used, 103.82 MB peak
-[2020.07.12-12.46.40:974][  0]LogMemory: Physical Memory: 5315.58 MB used,  2835.12 MB free, 8150.70 MB total
-[2020.07.12-12.46.40:974][  0]LogMemory: Virtual Memory: 5136.04 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2020.07.12-12.46.40:978][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.07.12-12.46.41:005][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.07.12-12.46.41:006][  0]LogInit: Using OS detected language (en-US).
-[2020.07.12-12.46.41:006][  0]LogInit: Using OS detected locale (en-ZA).
-[2020.07.12-12.46.41:007][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.07.12-12.46.41:185][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.07.12-12.46.41:185][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.07.12-12.46.41:192][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.07.12-12.46.41:192][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.07.12-12.46.41:192][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.07.12-12.46.41:192][  0]LogD3D11RHI: D3D11 adapters:
-[2020.07.12-12.46.41:247][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2020.07.12-12.46.41:247][  0]LogD3D11RHI:       4018/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.07.12-12.46.41:249][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.07.12-12.46.41:249][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.07.12-12.46.41:250][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.07.12-12.46.41:255][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.07.12-12.46.41:255][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2020.07.12-12.46.41:256][  0]LogWindows: EnumDisplayDevices:
-[2020.07.12-12.46.41:256][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2020.07.12-12.46.41:256][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.07.12-12.46.41:256][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.07.12-12.46.41:256][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.07.12-12.46.41:256][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.07.12-12.46.41:256][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2020.07.12-12.46.41:256][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
-[2020.07.12-12.46.41:256][  0]LogD3D11RHI:      Driver Date: 3-4-2020
-[2020.07.12-12.46.41:256][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2020.07.12-12.46.41:293][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.07.12-12.46.41:293][  0]LogD3D11RHI: Async texture creation enabled
-[2020.07.12-12.46.41:293][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.07.12-12.46.41:318][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.07.12-12.46.41:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.07.12-12.46.41:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.07.12-12.46.41:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.07.12-12.46.41:569][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.07.12-12.46.41:569][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.07.12-12.46.41:576][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.07.12-12.46.41:623][  0]LogShaderCompilers: Guid format shader working directory is -63 characters bigger than the processId version (../../../../../../Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Intermediate/Shaders/WorkingDirectory/2456/).
-[2020.07.12-12.46.41:623][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/juana/AppData/Local/Temp/UnrealShaderWorkingDir/26CFC90C47A1B79DF45C5C9A8C3CE155/'.
-[2020.07.12-12.46.41:623][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.07.12-12.46.41:623][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.07.12-12.46.41:623][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.07.12-12.46.42:289][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.07.12-12.46.42:336][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/juana/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.07.12-12.46.42:336][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/juana/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.07.12-12.46.42:336][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.07.12-12.46.42:336][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.07.12-12.46.42:336][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.12-12.46.42:336][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.07.12-12.46.42:345][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.07.12-12.46.42:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.12-12.46.42:345][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.07.12-12.46.42:347][  0]LogDerivedDataCache: Using Local data cache path C:/Users/juana/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.07.12-12.46.42:347][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.07.12-12.46.42:347][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.07.12-12.46.42:382][  0]LogSlate: Using FreeType 2.10.0
-[2020.07.12-12.46.42:383][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.07.12-12.46.42:471][  0]LogInit: Using OS detected language (en-US).
-[2020.07.12-12.46.42:471][  0]LogInit: Using OS detected locale (en-ZA).
-[2020.07.12-12.46.42:471][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2020.07.12-12.46.42:471][  0]LogTextLocalizationManager: No localization for 'en-ZA' exists, so 'en' will be used for the locale.
-[2020.07.12-12.46.42:471][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.07.12-12.46.42:471][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.07.12-12.46.42:472][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2020.07.12-12.46.42:474][  0]LogAssetRegistry: FAssetRegistry took 0.0014 seconds to start up
-[2020.07.12-12.46.42:625][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.000779 seconds
-[2020.07.12-12.46.42:667][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.12-12.46.42:759][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.07.12-12.46.42:759][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.07.12-12.46.42:759][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.07.12-12.46.42:759][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.07.12-12.46.42:759][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.07.12-12.46.42:771][  0]LogNetVersion: OutOfControl 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 557548167)
-[2020.07.12-12.46.42:985][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000015EE296FA40), frame # 0
-[2020.07.12-12.46.42:985][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000015EE29AC180), frame # 0
-[2020.07.12-12.46.42:986][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015EE29D1A00), frame # 0
-[2020.07.12-12.46.43:105][  0]LogMoviePlayer: Initializing movie player
-[2020.07.12-12.46.43:243][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.07.12-12.46.43:246][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.07.12-12.46.43:278][  0]SourceControl: Source control is disabled
-[2020.07.12-12.46.43:278][  0]SourceControl: Source control is disabled
-[2020.07.12-12.46.43:283][  0]SourceControl: Source control is disabled
-[2020.07.12-12.46.43:382][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.07.12-12.46.43:395][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.07.12-12.46.43:395][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.07.12-12.46.43:432][  0]LogOcInput: OculusInput pre-init called
-[2020.07.12-12.46.43:443][  0]LogUObjectArray: 19064 objects as part of root set at end of initial load.
-[2020.07.12-12.46.43:443][  0]LogUObjectAllocator: 5015424 out of 0 bytes used by permanent object pool.
-[2020.07.12-12.46.43:443][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.07.12-12.46.43:478][  0]LogEngine: Initializing Engine...
-[2020.07.12-12.46.43:479][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.07.12-12.46.43:479][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.07.12-12.46.43:481][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.07.12-12.46.43:563][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.07.12-12.46.43:567][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.12-12.46.43:567][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.12-12.46.43:567][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.12-12.46.43:567][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.12-12.46.43:567][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.12-12.46.43:567][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.12-12.46.43:567][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.12-12.46.43:567][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.12-12.46.43:567][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.12-12.46.43:567][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.12-12.46.43:579][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.12-12.46.43:579][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.07.12-12.46.43:618][  0]LogAudioMixer: Display: Using Audio Device charlies headphones (2- Realtek(R) Audio)
-[2020.07.12-12.46.43:623][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.12-12.46.43:624][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.12-12.46.43:624][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.12-12.46.43:625][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.12-12.46.43:626][  0]LogInit: FAudioDevice initialized.
-[2020.07.12-12.46.43:627][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.07.12-12.46.43:628][  0]LogInit: Texture streaming: Enabled
-[2020.07.12-12.46.43:675][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.12-12.46.43:676][  0]LogInit: Display: Game Engine Initialized.
-[2020.07.12-12.46.43:676][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
-[2020.07.12-12.46.43:697][  0]LogInit: Display: Starting Game.
-[2020.07.12-12.46.43:697][  0]LogNet: Browse: /Game/Maps/Level_04?Name=Player
-[2020.07.12-12.46.43:697][  0]LogLoad: LoadMap: /Game/Maps/Level_04?Name=Player
-[2020.07.12-12.46.43:697][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2020.07.12-12.46.43:698][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.07.12-12.46.43:699][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.12-12.46.43:707][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
-[2020.07.12-12.46.44:008][  0]LogAIModule: Creating AISystem for world Level_04
-[2020.07.12-12.46.44:008][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015EDC095C00), frame # 0
-[2020.07.12-12.46.44:008][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000015EE58CF9C0), frame # 0
-[2020.07.12-12.46.44:008][  0]LogLoad: Game class is 'ooc_gm_C'
-[2020.07.12-12.46.44:019][  0]LogWorld: Bringing World /Game/Maps/Level_04.Level_04 up for play (max tick rate 0) at 2020.07.12-14.46.44
-[2020.07.12-12.46.44:019][  0]LogWorld: Bringing up level for play took: 0.010045
-[2020.07.12-12.46.44:020][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.07.12-12.46.44:020][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.07.12-12.46.44:020][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.07.12-12.46.44:023][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.07.12-12.46.44:023][  0]LogLoad: Took 0.325402 seconds to LoadMap(/Game/Maps/Level_04)
-[2020.07.12-12.46.44:045][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2020.07.12-12.46.44:045][  0]LogLoad: (Engine Initialization) Total time: 6.41 seconds
-[2020.07.12-12.46.44:045][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.07.12-12.46.44:069][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.07.12-12.46.44:073][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.12-12.48.49:390][885]LogPackageName: SearchForPackageOnDisk took   0.107s to resolve Level_05.umap.
-[2020.07.12-12.48.49:390][885]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2020.07.12-12.48.49:390][885]LogGameState: Match State Changed from InProgress to LeavingMap
-[2020.07.12-12.48.49:495][885]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve Level_05.umap.
-[2020.07.12-12.48.49:495][885]LogNet: Browse: /Game/Maps/Level_05
-[2020.07.12-12.48.49:495][885]LogLoad: LoadMap: /Game/Maps/Level_05
-[2020.07.12-12.48.49:495][885]LogWorld: BeginTearingDown for /Game/Maps/Level_04
-[2020.07.12-12.48.49:496][885]LogWorld: UWorld::CleanupWorld for Level_04, bSessionEnded=true, bCleanupResources=true
-[2020.07.12-12.48.49:496][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.12-12.48.49:538][885]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015EDC095C00), frame # 6885
-[2020.07.12-12.48.49:538][885]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015EE58CF9C0), frame # 6885
-[2020.07.12-12.48.49:539][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
-[2020.07.12-12.48.50:354][885]LogAIModule: Creating AISystem for world Level_05
-[2020.07.12-12.48.50:354][885]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015EE592FE00), frame # 6885
-[2020.07.12-12.48.50:354][885]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000015EDCAA2700), frame # 6885
-[2020.07.12-12.48.50:354][885]LogLoad: Game class is 'ooc_gm_C'
-[2020.07.12-12.48.50:371][885]LogWorld: Bringing World /Game/Maps/Level_05.Level_05 up for play (max tick rate 0) at 2020.07.12-14.48.50
-[2020.07.12-12.48.50:371][885]LogWorld: Bringing up level for play took: 0.015151
-[2020.07.12-12.48.50:372][885]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.07.12-12.48.50:372][885]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.07.12-12.48.50:372][885]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.07.12-12.48.50:375][885]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.07.12-12.48.50:375][885]LogLoad: Took 0.879426 seconds to LoadMap(/Game/Maps/Level_05)
-[2020.07.12-12.49.02:036][522]LogSlate: Window 'OutOfControl (64-bit Development PCD3D_SM5) ' being destroyed
-[2020.07.12-12.49.02:037][522]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.07.12-12.49.02:041][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.12-12.49.02:041][522]LogEngine: All Windows Closed
-[2020.07.12-12.49.02:041][522]LogWindows: FPlatformMisc::RequestExit(0)
-[2020.07.12-12.49.02:041][522]LogCore: Engine exit requested (reason: Win RequestExit)
-[2020.07.12-12.49.02:041][523]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.07.12-12.49.02:046][523]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
-[2020.07.12-12.49.02:058][523]LogInit: Display: PreExit Game.
-[2020.07.12-12.49.02:104][523]LogWorld: BeginTearingDown for /Game/Maps/Level_05
-[2020.07.12-12.49.02:104][523]LogWorld: UWorld::CleanupWorld for Level_05, bSessionEnded=true, bCleanupResources=true
-[2020.07.12-12.49.02:105][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.12-12.49.02:577][523]LogExit: Preparing to exit.
-[2020.07.12-12.49.03:321][523]LogMoviePlayer: Shutting down movie player
-[2020.07.12-12.49.03:436][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.12-12.49.03:439][523]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.07.12-12.49.03:442][523]LogExit: Game engine shut down
-[2020.07.12-12.49.03:451][523]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000015EE296FA40), frame # 7523
-[2020.07.12-12.49.03:451][523]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015EE29AC180), frame # 7523
-[2020.07.12-12.49.03:451][523]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015EE29D1A00), frame # 7523
-[2020.07.12-12.49.03:458][523]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015EDCAA2700), frame # 7523
-[2020.07.12-12.49.03:458][523]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015EE592FE00), frame # 7523
-[2020.07.12-12.49.03:478][523]LogExit: Object subsystem successfully closed.
-[2020.07.12-12.49.03:495][523]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module SequenceRecorder (496)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module AutomationController (494)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module Voice (490)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module AIModule (488)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module GameplayDebugger (487)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module AITestSuite (485)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module NavigationSystem (483)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module OculusMR (480)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (478)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (476)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module WebMMedia (474)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (472)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (470)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (468)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (466)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (464)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module PlanarCut (462)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module CharacterAI (460)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (456)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module LiveCoding (454)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module LevelSequence (452)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (450)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module MovieScene (448)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (446)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module PortalServices (444)
-[2020.07.12-12.49.03:512][523]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
-[2020.07.12-12.49.03:513][523]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
-[2020.07.12-12.49.03:513][523]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (438)
-[2020.07.12-12.49.03:513][523]LogModuleManager: Shutting down and abandoning module AudioMixerCore (437)
-[2020.07.12-12.49.03:513][523]LogModuleManager: Shutting down and abandoning module ProfilerService (434)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module TaskGraph (432)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module Synthesis (430)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (428)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module OculusInput (426)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (424)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module GooglePAD (422)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module EditableMesh (420)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (418)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module CableComponent (416)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module AudioCapture (414)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (413)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module AssetTags (410)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (408)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (406)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module AppleImageUtils (404)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module AndroidPermission (402)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (400)
-[2020.07.12-12.49.03:723][523]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (398)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module TemplateSequence (396)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (394)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (392)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (390)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (389)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MediaCompositing (386)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module ImgMedia (384)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (382)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (380)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (378)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (376)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (374)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (372)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module MeshConversion (370)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module DynamicMesh (368)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (366)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module GeometricObjects (364)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (362)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (361)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (358)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (357)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module ChaosNiagara (350)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module ChaosCloth (348)
-[2020.07.12-12.49.03:724][523]LogModuleManager: Shutting down and abandoning module BackChannel (346)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module AutomationUtils (344)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (342)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module HotReload (341)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (340)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (330)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (328)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module SourceControl (327)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (322)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module SoundFields (320)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module SignificanceManager (318)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (316)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (314)
-[2020.07.12-12.49.03:725][523]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (310)
-[2020.07.12-12.49.03:726][523]LogModuleManager: Shutting down and abandoning module ActorSequence (308)
-[2020.07.12-12.49.03:726][523]LogModuleManager: Shutting down and abandoning module UdpMessaging (306)
-[2020.07.12-12.49.03:827][523]LogModuleManager: Shutting down and abandoning module TcpMessaging (304)
-[2020.07.12-12.49.04:326][523]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
-[2020.07.12-12.49.04:326][523]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (300)
-[2020.07.12-12.49.04:326][523]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (298)
-[2020.07.12-12.49.04:326][523]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (296)
-[2020.07.12-12.49.04:326][523]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (294)
-[2020.07.12-12.49.04:326][523]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2020.07.12-12.49.04:326][523]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (292)
-[2020.07.12-12.49.04:326][523]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (290)
-[2020.07.12-12.49.04:326][523]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
-[2020.07.12-12.49.04:326][523]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
-[2020.07.12-12.49.04:326][523]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
-[2020.07.12-12.49.04:327][523]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (282)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module MagicLeapAR (280)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module AugmentedReality (279)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (276)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module Niagara (274)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module SignalProcessing (273)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module NiagaraEditor (271)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module NiagaraCore (268)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (266)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
-[2020.07.12-12.49.04:327][523]LogModuleManager: Shutting down and abandoning module TreeMap (261)
-[2020.07.12-12.49.04:328][523]LogModuleManager: Shutting down and abandoning module AnimationSharing (258)
-[2020.07.12-12.49.04:328][523]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (256)
-[2020.07.12-12.49.04:328][523]LogModuleManager: Shutting down and abandoning module Paper2D (254)
-[2020.07.12-12.49.04:328][523]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (252)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (250)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (248)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module PacketHandler (246)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (244)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (242)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module MediaAssets (240)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module Overlay (238)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module OverlayEditor (237)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module VREditor (234)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module StringTableEditor (232)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (230)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (228)
-[2020.07.12-12.49.04:329][523]LogModuleManager: Shutting down and abandoning module FunctionalTesting (226)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (224)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (223)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module UMG (220)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module UMGEditor (219)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module Sequencer (218)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module MessageLog (215)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module MaterialEditor (213)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module SlateReflector (208)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module Slate (206)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module SlateCore (204)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
-[2020.07.12-12.49.04:330][523]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module Messaging (194)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (192)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (190)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module XAudio2 (188)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module Networking (186)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module Core (184)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module MovieSceneTools (182)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module KismetCompiler (180)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module MeshBuilder (178)
-[2020.07.12-12.49.04:332][523]LogModuleManager: Shutting down and abandoning module MeshUtilities (176)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (175)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (174)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (173)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (171)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (169)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (158)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (156)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2020.07.12-12.49.04:333][523]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (119)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (117)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (115)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (113)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module InputCore (110)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module Settings (108)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module Chaos (100)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
-[2020.07.12-12.49.04:334][523]LogModuleManager: Shutting down and abandoning module SteamVR (88)
-[2020.07.12-12.49.04:334][523]LogHMD: Freeing OpenVRDLLHandle.
-[2020.07.12-12.49.04:335][523]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
-[2020.07.12-12.49.04:335][523]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
-[2020.07.12-12.49.04:335][523]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
-[2020.07.12-12.49.04:335][523]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
-[2020.07.12-12.49.04:335][523]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
-[2020.07.12-12.49.04:336][523]LogModuleManager: Shutting down and abandoning module XMPP (71)
-[2020.07.12-12.49.04:336][523]LogModuleManager: Shutting down and abandoning module WebSockets (70)
-[2020.07.12-12.49.04:353][523]LogModuleManager: Shutting down and abandoning module HTTP (67)
-[2020.07.12-12.49.04:377][523]LogModuleManager: Shutting down and abandoning module SSL (66)
-[2020.07.12-12.49.04:379][523]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
-[2020.07.12-12.49.04:380][523]LogModuleManager: Shutting down and abandoning module Media (61)
-[2020.07.12-12.49.04:382][523]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
-[2020.07.12-12.49.04:382][523]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
-[2020.07.12-12.49.04:382][523]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
-[2020.07.12-12.49.04:382][523]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
-[2020.07.12-12.49.04:382][523]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
-[2020.07.12-12.49.04:382][523]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.07.12-12.49.04:383][523]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.07.12-12.49.04:384][523]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.07.12-12.49.04:384][523]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2020.07.12-12.49.04:385][523]LogD3D11RHI: Shutdown
-[2020.07.12-12.49.04:385][523]LogD3D11RHI: CleanupD3DDevice
-[2020.07.12-12.49.04:391][523]LogExit: Exiting.
-[2020.07.12-12.49.04:404][523]Log file closed, 07/12/20 14:49:04
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
+[2020.07.12-13.10.01:196][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.12-13.10.01:196][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
+[2020.07.12-13.10.01:196][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
+[2020.07.12-13.10.01:199][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.12-13.10.01:199][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.12-13.10.01:200][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.12-13.10.01:200][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.12-13.10.01:200][  0]LogHAL: Display: Platform has ~ 8 GB [8546631680 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.12-13.10.01:200][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.12-13.10.01:200][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.12-13.10.01:200][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.12-13.10.01:201][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.12-13.10.01:202][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.12-13.10.01:202][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.12-13.10.01:202][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.12-13.10.01:202][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Engine.ini]
+[2020.07.12-13.10.01:202][  0]LogInit: Computer: DESKTOP-PLNC30A
+[2020.07.12-13.10.01:202][  0]LogInit: User: juana
+[2020.07.12-13.10.01:202][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.07.12-13.10.01:202][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.12-13.10.01:202][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.07.12-13.10.01:202][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.12-13.10.01:202][  0]LogMemory: Process Physical Memory: 114.48 MB used, 114.48 MB peak
+[2020.07.12-13.10.01:202][  0]LogMemory: Process Virtual Memory: 103.88 MB used, 103.88 MB peak
+[2020.07.12-13.10.01:202][  0]LogMemory: Physical Memory: 5572.68 MB used,  2578.02 MB free, 8150.70 MB total
+[2020.07.12-13.10.01:202][  0]LogMemory: Virtual Memory: 5136.04 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.07.12-13.10.01:206][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.12-13.10.01:235][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.12-13.10.01:235][  0]LogInit: Using OS detected language (en-US).
+[2020.07.12-13.10.01:235][  0]LogInit: Using OS detected locale (en-ZA).
+[2020.07.12-13.10.01:237][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.12-13.10.01:413][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.12-13.10.01:413][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.12-13.10.01:420][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.12-13.10.01:420][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.12-13.10.01:420][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.12-13.10.01:420][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.12-13.10.01:473][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.07.12-13.10.01:473][  0]LogD3D11RHI:       4018/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.07.12-13.10.01:476][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.12-13.10.01:476][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.12-13.10.01:476][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.12-13.10.01:482][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.12-13.10.01:482][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.12-13.10.01:482][  0]LogWindows: EnumDisplayDevices:
+[2020.07.12-13.10.01:482][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.07.12-13.10.01:482][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.07.12-13.10.01:482][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.07.12-13.10.01:483][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.07.12-13.10.01:483][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.07.12-13.10.01:483][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.07.12-13.10.01:483][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
+[2020.07.12-13.10.01:483][  0]LogD3D11RHI:      Driver Date: 3-4-2020
+[2020.07.12-13.10.01:483][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.07.12-13.10.01:518][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.12-13.10.01:518][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.12-13.10.01:518][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.07.12-13.10.01:539][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.12-13.10.01:806][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.12-13.10.01:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.12-13.10.01:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.12-13.10.01:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.12-13.10.01:825][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.12-13.10.01:830][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.12-13.10.01:879][  0]LogShaderCompilers: Guid format shader working directory is -63 characters bigger than the processId version (../../../../../../Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Intermediate/Shaders/WorkingDirectory/6208/).
+[2020.07.12-13.10.01:879][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/juana/AppData/Local/Temp/UnrealShaderWorkingDir/439781F44D589708E1D3ECB84343D5D2/'.
+[2020.07.12-13.10.01:879][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.12-13.10.01:880][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.12-13.10.01:880][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.12-13.10.02:556][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.12-13.10.02:604][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/juana/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.12-13.10.02:604][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/juana/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.07.12-13.10.02:604][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.12-13.10.02:604][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.12-13.10.02:604][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.12-13.10.02:604][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.12-13.10.02:613][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.12-13.10.02:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.12-13.10.02:613][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.12-13.10.02:615][  0]LogDerivedDataCache: Using Local data cache path C:/Users/juana/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.12-13.10.02:615][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.12-13.10.02:615][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.12-13.10.02:651][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.12-13.10.02:651][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.12-13.10.02:738][  0]LogInit: Using OS detected language (en-US).
+[2020.07.12-13.10.02:738][  0]LogInit: Using OS detected locale (en-ZA).
+[2020.07.12-13.10.02:738][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2020.07.12-13.10.02:738][  0]LogTextLocalizationManager: No localization for 'en-ZA' exists, so 'en' will be used for the locale.
+[2020.07.12-13.10.02:738][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.07.12-13.10.02:738][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.07.12-13.10.02:740][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2020.07.12-13.10.02:742][  0]LogAssetRegistry: FAssetRegistry took 0.0014 seconds to start up
+[2020.07.12-13.10.02:893][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.000753 seconds
+[2020.07.12-13.10.02:935][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.12-13.10.03:026][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.12-13.10.03:026][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.12-13.10.03:026][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.12-13.10.03:026][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.12-13.10.03:026][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.12-13.10.03:038][  0]LogNetVersion: OutOfControl 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 557548167)
+[2020.07.12-13.10.03:255][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D92A61FA40), frame # 0
+[2020.07.12-13.10.03:255][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D92A664180), frame # 0
+[2020.07.12-13.10.03:256][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D92A685A00), frame # 0
+[2020.07.12-13.10.03:375][  0]LogMoviePlayer: Initializing movie player
+[2020.07.12-13.10.03:526][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.12-13.10.03:529][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.12-13.10.03:564][  0]SourceControl: Source control is disabled
+[2020.07.12-13.10.03:564][  0]SourceControl: Source control is disabled
+[2020.07.12-13.10.03:570][  0]SourceControl: Source control is disabled
+[2020.07.12-13.10.03:672][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.12-13.10.03:686][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.12-13.10.03:686][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.12-13.10.03:724][  0]LogOcInput: OculusInput pre-init called
+[2020.07.12-13.10.03:737][  0]LogUObjectArray: 19064 objects as part of root set at end of initial load.
+[2020.07.12-13.10.03:737][  0]LogUObjectAllocator: 5015424 out of 0 bytes used by permanent object pool.
+[2020.07.12-13.10.03:737][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.12-13.10.03:771][  0]LogEngine: Initializing Engine...
+[2020.07.12-13.10.03:772][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.12-13.10.03:772][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.07.12-13.10.03:773][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.12-13.10.03:859][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.12-13.10.03:863][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.12-13.10.03:863][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.12-13.10.03:863][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.12-13.10.03:863][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.12-13.10.03:863][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.12-13.10.03:863][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.12-13.10.03:863][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.12-13.10.03:863][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.12-13.10.03:864][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.12-13.10.03:864][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.12-13.10.03:875][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.12-13.10.03:875][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.12-13.10.03:914][  0]LogAudioMixer: Display: Using Audio Device charlies headphones (2- Realtek(R) Audio)
+[2020.07.12-13.10.03:919][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.12-13.10.03:920][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.12-13.10.03:920][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.12-13.10.03:921][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.12-13.10.03:922][  0]LogInit: FAudioDevice initialized.
+[2020.07.12-13.10.03:924][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.12-13.10.03:926][  0]LogInit: Texture streaming: Enabled
+[2020.07.12-13.10.03:973][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.12-13.10.03:974][  0]LogInit: Display: Game Engine Initialized.
+[2020.07.12-13.10.03:974][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2020.07.12-13.10.03:995][  0]LogInit: Display: Starting Game.
+[2020.07.12-13.10.03:995][  0]LogNet: Browse: /Game/Maps/Level_04?Name=Player
+[2020.07.12-13.10.03:995][  0]LogLoad: LoadMap: /Game/Maps/Level_04?Name=Player
+[2020.07.12-13.10.03:995][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2020.07.12-13.10.03:995][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.12-13.10.03:995][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.12-13.10.04:003][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.07.12-13.10.04:306][  0]LogAIModule: Creating AISystem for world Level_04
+[2020.07.12-13.10.04:306][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D91E325200), frame # 0
+[2020.07.12-13.10.04:306][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D92DFE2980), frame # 0
+[2020.07.12-13.10.04:306][  0]LogLoad: Game class is 'ooc_gm_C'
+[2020.07.12-13.10.04:316][  0]LogWorld: Bringing World /Game/Maps/Level_04.Level_04 up for play (max tick rate 0) at 2020.07.12-15.10.04
+[2020.07.12-13.10.04:317][  0]LogWorld: Bringing up level for play took: 0.009989
+[2020.07.12-13.10.04:318][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.07.12-13.10.04:318][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.07.12-13.10.04:318][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.07.12-13.10.04:321][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.07.12-13.10.04:321][  0]LogLoad: Took 0.326315 seconds to LoadMap(/Game/Maps/Level_04)
+[2020.07.12-13.10.04:343][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.07.12-13.10.04:343][  0]LogLoad: (Engine Initialization) Total time: 6.44 seconds
+[2020.07.12-13.10.04:343][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.12-13.10.04:368][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.12-13.10.04:370][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.12-13.10.24:719][114]LogRenderer: Reallocating scene render targets to support 1280x1024 Format 10 NumSamples 1 (Frame:1117).
+[2020.07.12-13.10.24:719][114]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.12-13.10.24:719][114]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.12-13.10.24:719][114]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.12-13.10.24:719][114]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.12-13.10.24:720][114]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.12-13.10.24:720][114]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.12-13.10.24:720][114]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2020.07.12-13.10.24:721][114]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.12-13.10.24:721][114]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.12-13.10.30:698][439]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1444).
+[2020.07.12-13.10.30:698][439]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.12-13.10.30:698][439]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.12-13.10.30:698][439]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.12-13.10.30:698][439]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.12-13.10.30:699][439]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.12-13.10.30:699][439]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.12-13.10.30:699][439]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2020.07.12-13.10.30:700][439]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.12-13.10.30:700][439]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.12-13.11.17:554][ 15]LogRenderer: Reallocating scene render targets to support 1280x1024 Format 10 NumSamples 1 (Frame:4022).
+[2020.07.12-13.11.17:554][ 15]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.17:554][ 15]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.12-13.11.17:555][ 15]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.12-13.11.17:556][ 15]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.12-13.11.19:186][103]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:4112).
+[2020.07.12-13.11.19:186][103]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.12-13.11.19:186][103]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.12-13.11.19:186][103]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.12-13.11.19:186][103]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2020.07.12-13.11.19:187][103]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/juana/Documents/GitHub/hello/hello/pokemon-fan/pokemon-fan/outacontrolv1/OutOfControl/Saved/Config/Windows/Scalability.ini]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.12-13.11.19:187][103]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.12-13.11.23:089][310]LogSlate: Window 'OutOfControl (64-bit Development PCD3D_SM5) ' being destroyed
+[2020.07.12-13.11.23:090][310]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.12-13.11.23:095][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.12-13.11.23:095][310]LogEngine: All Windows Closed
+[2020.07.12-13.11.23:095][310]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.07.12-13.11.23:095][310]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.07.12-13.11.23:095][311]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.07.12-13.11.23:098][311]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2020.07.12-13.11.23:147][311]LogInit: Display: PreExit Game.
+[2020.07.12-13.11.23:149][311]LogWorld: BeginTearingDown for /Game/Maps/Level_04
+[2020.07.12-13.11.23:149][311]LogWorld: UWorld::CleanupWorld for Level_04, bSessionEnded=true, bCleanupResources=true
+[2020.07.12-13.11.23:149][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.12-13.11.23:832][311]LogExit: Preparing to exit.
+[2020.07.12-13.11.24:571][311]LogMoviePlayer: Shutting down movie player
+[2020.07.12-13.11.24:643][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.12-13.11.24:647][311]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.07.12-13.11.24:650][311]LogExit: Game engine shut down
+[2020.07.12-13.11.24:661][311]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001D92A61FA40), frame # 4311
+[2020.07.12-13.11.24:661][311]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D92A664180), frame # 4311
+[2020.07.12-13.11.24:661][311]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D92A685A00), frame # 4311
+[2020.07.12-13.11.24:665][311]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D91E325200), frame # 4311
+[2020.07.12-13.11.24:665][311]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D92DFE2980), frame # 4311
+[2020.07.12-13.11.24:683][311]LogExit: Object subsystem successfully closed.
+[2020.07.12-13.11.24:702][311]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module SequenceRecorder (496)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module AutomationController (494)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module Voice (490)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module AIModule (488)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module GameplayDebugger (487)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module AITestSuite (485)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module NavigationSystem (483)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module OculusMR (480)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (478)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (476)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module WebMMedia (474)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (472)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (470)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (468)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (466)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (464)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module PlanarCut (462)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module CharacterAI (460)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (456)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module LiveCoding (454)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module LevelSequence (452)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (450)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module MovieScene (448)
+[2020.07.12-13.11.24:719][311]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (446)
+[2020.07.12-13.11.24:720][311]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2020.07.12-13.11.24:720][311]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2020.07.12-13.11.24:720][311]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2020.07.12-13.11.24:720][311]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (438)
+[2020.07.12-13.11.24:720][311]LogModuleManager: Shutting down and abandoning module AudioMixerCore (437)
+[2020.07.12-13.11.24:720][311]LogModuleManager: Shutting down and abandoning module ProfilerService (434)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module TaskGraph (432)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module Synthesis (430)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (428)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module OculusInput (426)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (424)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module GooglePAD (422)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module EditableMesh (420)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (418)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module CableComponent (416)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module AudioCapture (414)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (413)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module AssetTags (410)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (408)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (406)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module AppleImageUtils (404)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module AndroidPermission (402)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (400)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (398)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module TemplateSequence (396)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (394)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (392)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (390)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (389)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MediaCompositing (386)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module ImgMedia (384)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (382)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (380)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (378)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (376)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (374)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (372)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module MeshConversion (370)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module DynamicMesh (368)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (366)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module GeometricObjects (364)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (362)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (361)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (358)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (357)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module ChaosNiagara (350)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module ChaosCloth (348)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module BackChannel (346)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module AutomationUtils (344)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (342)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module HotReload (341)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (340)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (330)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (328)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module SourceControl (327)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (322)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module SoundFields (320)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module SignificanceManager (318)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (316)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (314)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (310)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module ActorSequence (308)
+[2020.07.12-13.11.24:889][311]LogModuleManager: Shutting down and abandoning module UdpMessaging (306)
+[2020.07.12-13.11.24:991][311]LogModuleManager: Shutting down and abandoning module TcpMessaging (304)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (300)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (298)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (296)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (294)
+[2020.07.12-13.11.25:572][311]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (292)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (290)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2020.07.12-13.11.25:572][311]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (282)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module MagicLeapAR (280)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module AugmentedReality (279)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (276)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module Niagara (274)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module SignalProcessing (273)
+[2020.07.12-13.11.25:572][311]LogModuleManager: Shutting down and abandoning module NiagaraEditor (271)
+[2020.07.12-13.11.25:573][311]LogModuleManager: Shutting down and abandoning module NiagaraCore (268)
+[2020.07.12-13.11.25:573][311]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (266)
+[2020.07.12-13.11.25:573][311]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2020.07.12-13.11.25:573][311]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
+[2020.07.12-13.11.25:573][311]LogModuleManager: Shutting down and abandoning module TreeMap (261)
+[2020.07.12-13.11.25:573][311]LogModuleManager: Shutting down and abandoning module AnimationSharing (258)
+[2020.07.12-13.11.25:573][311]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (256)
+[2020.07.12-13.11.25:573][311]LogModuleManager: Shutting down and abandoning module Paper2D (254)
+[2020.07.12-13.11.25:573][311]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (252)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (250)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (248)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module PacketHandler (246)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (244)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (242)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module MediaAssets (240)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module Overlay (238)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module OverlayEditor (237)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module VREditor (234)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module StringTableEditor (232)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (230)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (228)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module FunctionalTesting (226)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (224)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (223)
+[2020.07.12-13.11.25:574][311]LogModuleManager: Shutting down and abandoning module UMG (220)
+[2020.07.12-13.11.25:575][311]LogModuleManager: Shutting down and abandoning module UMGEditor (219)
+[2020.07.12-13.11.25:575][311]LogModuleManager: Shutting down and abandoning module Sequencer (218)
+[2020.07.12-13.11.25:575][311]LogModuleManager: Shutting down and abandoning module MessageLog (215)
+[2020.07.12-13.11.25:575][311]LogModuleManager: Shutting down and abandoning module MaterialEditor (213)
+[2020.07.12-13.11.25:575][311]LogModuleManager: Shutting down and abandoning module SlateReflector (208)
+[2020.07.12-13.11.25:575][311]LogModuleManager: Shutting down and abandoning module Slate (206)
+[2020.07.12-13.11.25:575][311]LogModuleManager: Shutting down and abandoning module SlateCore (204)
+[2020.07.12-13.11.25:575][311]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2020.07.12-13.11.25:575][311]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module Messaging (194)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (192)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (190)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module XAudio2 (188)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module Networking (186)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module Core (184)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module MovieSceneTools (182)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module KismetCompiler (180)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module MeshBuilder (178)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module MeshUtilities (176)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (175)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (174)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (173)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (171)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (169)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (158)
+[2020.07.12-13.11.25:577][311]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (156)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (119)
+[2020.07.12-13.11.25:578][311]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (117)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (115)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (113)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module InputCore (110)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module Settings (108)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.07.12-13.11.25:579][311]LogHMD: Freeing OpenVRDLLHandle.
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.07.12-13.11.25:579][311]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.07.12-13.11.25:580][311]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.07.12-13.11.25:580][311]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.07.12-13.11.25:596][311]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.07.12-13.11.25:629][311]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.07.12-13.11.25:630][311]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.07.12-13.11.25:632][311]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.07.12-13.11.25:633][311]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.07.12-13.11.25:633][311]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.07.12-13.11.25:633][311]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.07.12-13.11.25:633][311]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.07.12-13.11.25:633][311]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.07.12-13.11.25:634][311]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.07.12-13.11.25:634][311]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.07.12-13.11.25:634][311]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.07.12-13.11.25:634][311]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.07.12-13.11.25:634][311]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.07.12-13.11.25:634][311]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.07.12-13.11.25:634][311]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.07.12-13.11.25:634][311]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.07.12-13.11.25:635][311]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.07.12-13.11.25:636][311]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.07.12-13.11.25:636][311]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.07.12-13.11.25:636][311]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.07.12-13.11.26:092][311]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.07.12-13.11.26:093][311]LogD3D11RHI: Shutdown
+[2020.07.12-13.11.26:093][311]LogD3D11RHI: CleanupD3DDevice
+[2020.07.12-13.11.26:098][311]LogExit: Exiting.
+[2020.07.12-13.11.26:147][311]Log file closed, 07/12/20 15:11:26
